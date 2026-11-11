@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Obsidian canvas",
+    "description": "Opens .canvas files from your workspace as an editable Obsidian-style canvas in the document preview: cards, notes, media, web pages, groups, and connections."
+  }
+}

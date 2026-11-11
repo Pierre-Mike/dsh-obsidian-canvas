@@ -1,0 +1,4 @@
+- insert:
+    - id: obsidian-canvas
+      name: '@local/obsidian-canvas'
+      config: {}

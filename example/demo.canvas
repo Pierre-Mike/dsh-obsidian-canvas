@@ -1,0 +1,103 @@
+{
+	"nodes": [
+		{
+			"id": "grp00000000000001",
+			"type": "group",
+			"x": -40,
+			"y": -120,
+			"width": 740,
+			"height": 420,
+			"label": "Getting started",
+			"color": "6"
+		},
+		{
+			"id": "txt00000000000001",
+			"type": "text",
+			"text": "# Obsidian canvas\n\nDouble-click empty space to add a card.\n\nDrag from the **dots** on a card's sides to connect it.",
+			"x": 0,
+			"y": -60,
+			"width": 300,
+			"height": 200,
+			"color": "4"
+		},
+		{
+			"id": "txt00000000000002",
+			"type": "text",
+			"text": "## Try it\n\n- Shift + 1 zooms to fit\n- Right-click for more\n- #canvas",
+			"x": 340,
+			"y": -40,
+			"width": 280,
+			"height": 200
+		},
+		{
+			"id": "fil00000000000001",
+			"type": "file",
+			"file": "notes/Welcome.md",
+			"x": -240,
+			"y": 480,
+			"width": 400,
+			"height": 360
+		},
+		{
+			"id": "lnk00000000000001",
+			"type": "link",
+			"url": "https://jsoncanvas.org/",
+			"x": 500,
+			"y": 360,
+			"width": 460,
+			"height": 360
+		},
+		{
+			"id": "9b2f413125dd4442",
+			"type": "text",
+			"text": "",
+			"x": 880,
+			"y": 120,
+			"width": 260,
+			"height": 60
+		},
+		{
+			"id": "05a800b5075284f6",
+			"type": "text",
+			"text": "",
+			"x": 320,
+			"y": 860,
+			"width": 260,
+			"height": 60,
+			"color": "3"
+		}
+	],
+	"edges": [
+		{
+			"id": "edg00000000000001",
+			"fromNode": "txt00000000000001",
+			"fromSide": "right",
+			"toNode": "txt00000000000002",
+			"toSide": "left",
+			"label": "then"
+		},
+		{
+			"id": "edg00000000000002",
+			"fromNode": "txt00000000000001",
+			"fromSide": "bottom",
+			"toNode": "fil00000000000001",
+			"toSide": "top",
+			"color": "2"
+		},
+		{
+			"id": "edg00000000000003",
+			"fromNode": "txt00000000000002",
+			"fromSide": "bottom",
+			"toNode": "lnk00000000000001",
+			"toSide": "top",
+			"fromEnd": "arrow"
+		},
+		{
+			"id": "987e32928ef979e7",
+			"fromNode": "txt00000000000002",
+			"fromSide": "right",
+			"toNode": "9b2f413125dd4442",
+			"toSide": "left"
+		}
+	]
+}
